@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-#netstat show information about connections.
-#-o this flag show list of connections.
-netstat -o
+# netstat with flags l (listening ports) & p (name process)
+netstat -lp
