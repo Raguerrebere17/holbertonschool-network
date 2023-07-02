@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# netstat with flags l (listening ports) & p (name process)
-netstat -lp
+# Shows all listening sockets
+
+netstat -tunlp
