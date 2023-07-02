@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Shows all listening sockets
 
-netstat -tunlp
+netstat -tnlp
