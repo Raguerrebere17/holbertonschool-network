@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#netstat show information about connections.
+#-o this flag show list of connections.
+netstat -o
